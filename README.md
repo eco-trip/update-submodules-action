@@ -20,7 +20,7 @@ jobs:
         uses: eco-trip/update-submodules-action@v1.0
         with:
           parent: eco-trip/Ecotrip
-		  submodules: App, Api, CP
+          submodules: App, Api, CP
           token: ${{ secrets.MEBBOT }}
-		  commit_message: "chore: Update Api [skip ci]"
+          commit_message: "chore: Update Api [skip ci]"
 ```
