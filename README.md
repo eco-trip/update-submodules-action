@@ -17,7 +17,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Update parent
-        uses: eco-trip/update-submodules-action@v1.0
+        uses: eco-trip/update-submodules-action@v1.1
         with:
           parent: eco-trip/Ecotrip
           token: ${{ secrets.MEBBOT }}
